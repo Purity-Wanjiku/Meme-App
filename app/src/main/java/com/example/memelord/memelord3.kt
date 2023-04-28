@@ -6,18 +6,18 @@ import android.os.Bundle
 import android.widget.Button
 
 class memelord3 : AppCompatActivity() {
-    lateinit var buttonprv: Button
-    lateinit var buttonnxt: Button
+    lateinit var buttonprvvv: Button
+    lateinit var buttonnxttt: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_memelord3)
-        buttonprv=findViewById(R.id.buttonprv)
-        buttonprv.setOnClickListener {
+        buttonprvvv=findViewById(R.id.buttonprvvv)
+        buttonprvvv.setOnClickListener {
             val intent = Intent(this,memelord2::class.java)
             startActivity(intent)
         }
-        buttonnxt=findViewById(R.id.buttonprv)
-        buttonnxt.setOnClickListener {
+        buttonnxttt=findViewById(R.id.buttonnxttt)
+        buttonnxttt.setOnClickListener {
             val intent = Intent(this,memelord4::class.java)
             startActivity(intent)
         }
